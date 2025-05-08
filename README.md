@@ -94,12 +94,17 @@ By combining React, Docker, Jenkins, and Ansible, this process automates both th
 
 ![ChatGPT Image May 8, 2025, 02_20_55 PM](https://github.com/user-attachments/assets/07d46570-dcb2-481b-9988-b76e10aa474f)
 
-React	Frontend app you developed locally (in VS Code)
-Docker	Containerized the app for consistent deployment
-EC2	Hosted your app, Jenkins, and Ansible as virtual servers
-Jenkins	Automates CI/CD – builds Docker image and deploys on code push
-Ansible	Installs Docker or other tools on remote servers easily
-GitHub	Source code repository for triggering Jenkins build automatically
+React:       Frontend app you developed locally (in VS Code)
+
+Docker:      Containerized the app for consistent deployment
+
+EC2:        Hosted your app, Jenkins, and Ansible as virtual servers
+
+Jenkins:    Automates CI/CD – builds Docker image and deploys on code push
+
+Ansible:    Installs Docker or other tools on remote servers easily
+
+GitHub:      Source code repository for triggering Jenkins build automatically
 
 
 # execute shell
